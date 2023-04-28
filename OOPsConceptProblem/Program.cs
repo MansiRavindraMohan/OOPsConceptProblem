@@ -43,6 +43,9 @@
             methodsType.NonParameterMethod();
             //2)Parameterised method
             methodsType.ParameterMethod(23, "Mansi");
+            //Value Type,Reference Type
+            ValueType valueType= new ValueType();
+            valueType.Methodvalue();
             Console.ReadKey();
         }
     }
