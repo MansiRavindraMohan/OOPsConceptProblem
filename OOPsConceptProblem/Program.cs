@@ -34,6 +34,9 @@
             Pig pig = new Pig();
             pig.SoundAnimal();
             pig.Sleep();
+            //Variables and data types
+            Variables variables= new Variables();
+            variables.MethodVariable();
             Console.ReadKey();
         }
     }
