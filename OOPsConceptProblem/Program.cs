@@ -37,6 +37,12 @@
             //Variables and data types
             Variables variables= new Variables();
             variables.MethodVariable();
+            //Method Types
+            //1)Non-parameterised method
+            MethodsType methodsType= new MethodsType();
+            methodsType.NonParameterMethod();
+            //2)Parameterised method
+            methodsType.ParameterMethod(23, "Mansi");
             Console.ReadKey();
         }
     }
