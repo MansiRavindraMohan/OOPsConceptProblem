@@ -24,6 +24,12 @@
             //2)Method Overriding
             Dog dog = new Dog();
             dog.Sound();
+            //Encapsulation Example
+            Student student = new Student();
+            student.Name = "Mansi Mohan";
+            Console.WriteLine("Name of Student: " + student.Name);
+            student.Age = 23;
+            Console.WriteLine("Age of Student: " + student.Age);
             Console.ReadKey();
         }
     }
