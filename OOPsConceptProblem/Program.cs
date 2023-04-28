@@ -30,6 +30,10 @@
             Console.WriteLine("Name of Student: " + student.Name);
             student.Age = 23;
             Console.WriteLine("Age of Student: " + student.Age);
+            //Abstraction Example
+            Pig pig = new Pig();
+            pig.SoundAnimal();
+            pig.Sleep();
             Console.ReadKey();
         }
     }
