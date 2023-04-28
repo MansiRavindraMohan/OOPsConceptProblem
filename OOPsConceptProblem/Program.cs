@@ -46,6 +46,20 @@
             //Value Type,Reference Type
             ValueType valueType= new ValueType();
             valueType.Methodvalue();
+            //Inheritance Type
+            //1)Single inheritance
+            Triangle triangle= new Triangle();
+            triangle.ShapeMethod();
+            triangle.ShapeMethodOne();
+            //2)Multilevel inheritance
+            triangle.ShapeMethodTwo();
+            //3)Hierarchical inheritance
+            Pentagon pentagon= new Pentagon();
+            pentagon.ShapeMethod();
+            //4)Multiple inheritance
+            Gadget gadget= new Gadget();
+            gadget.Eat();
+            gadget.Work();
             Console.ReadKey();
         }
     }
